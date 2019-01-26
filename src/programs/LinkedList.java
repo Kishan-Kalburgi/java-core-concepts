@@ -1,6 +1,7 @@
 package programs;
 
 import java.util.List;
+import java.util.Scanner;
 
 public class LinkedList {
 
@@ -17,7 +18,20 @@ public class LinkedList {
 		
 		
 		System.out.println("Middle element is ");
-		System.out.println(list.get(list.size()/2));		
+		System.out.println(list.get(list.size()/2));
+		
+//		####################################################
+		
+		System.out.println("############################################");
+		
+		int number;
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter Number");
+		
+		number = scan.nextInt();
+		
+		
 	}
 
 }
