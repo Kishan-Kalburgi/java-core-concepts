@@ -19,6 +19,30 @@ public class Set1 {
 			System.out.printf(i + ", ");
 		}
 		
+		System.out.println("");
+		
+//		String Reverse
+		String str = "ABCD";
+		
+		String[] arrStr = new String[4];
+		String[] reverceStr = new String[4];
+		
+		arrStr = str.split("");
+		
+		System.out.println("Before Reverce");
+		for (String i : arrStr) {
+			System.out.printf(i);
+		}
+		
+		System.out.println("\nAfter Reverce");
+		
+		for (int i = 0; i < arrStr.length; i++) {
+			reverceStr[i] = arrStr[arrStr.length-i-1];
+ 		}
+		
+		for (String i : reverceStr) {
+			System.out.printf(i);
+		} 
 		
 		
 	}
